@@ -4,12 +4,12 @@
 
 ## Exercise 1
 - Write a function that can read “rawdata.m" and rebuild its space K images
-  - Then use the Fourier 2D function to rebuild these images
-  - Take the slices Nº 6,10,14,18,22
+- Use the Fourier 2D function to rebuild these images
+  - For this exercise, take the slices Nº 6,10,14,18,22
 
 ## Exercise 2
 - 
 
 ## Exercise 3
 - Write a function that can read “spikes.m" and rebuild its space K image
-  - Then use the Fourier 2D function to rebuild its image
+- Use the Fourier 2D function to rebuild its image
