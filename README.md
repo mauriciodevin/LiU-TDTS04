@@ -1,4 +1,4 @@
-<h1 align="center"> Medical Physics Assigment - Space K </h1>
+<h1 align="center"> Medical Physics Assignment - Space K </h1>
 
 <p align="justify"> Use files “rawdata.m" and “spikes.m“ to generate images of the space K and then pass it throught an Fourier 2D function to generate its rebuild images  </p>
 
