@@ -1,12 +1,16 @@
--------------------------------------------------------------Exercício 3 ----------------------------------------------------------------------------
+-------------------------------------------------------------Exercise 3 ----------------------------------------------------------------------------
+
 ''' Importando Bibliotecas '''
 from scipy.io import loadmat
 import matplotlib.pyplot as plt
 import numpy as np
+
 ''' Carregando os arquivos '''
 data_spike = loadmat('\\Users\\mauricio\\Documents\\Maurício Devincentis\\UFABC\\Matérias\\Matérias 7º Quad\\Física Médica 2\\spike.mat')
+
 ''' Salvando spike em uma variável '''
 raw_data = data_spike['spike'] #Python reconheceu o arquivo como um dicionário, por isso salvamos desse modo
+
 ''' Função para plotar o Espaço K '''
 def Plot_K_Space(slice):    
     plt.figure()
@@ -14,6 +18,7 @@ def Plot_K_Space(slice):
     plt.imshow(abs(slice), cmap="gray",vmin=0.0, vmax=35000)
     #plt.colorbar()
     plt.show()
+    
 ''' Função para reconstrução da imagem após a transformada de Fourier 2D '''
 def Plot_FFT2(slice):    
     plt.figure()
